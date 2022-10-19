@@ -1,3 +1,131 @@
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Regular.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Regular.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: HelveticaNeueCyr;
+  font-display: swap;
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YandexSansDisplay;
+  font-display: swap;
+  src: url("../fonts/YandexSansDisplay-Bold.woff2") format("woff2"), url("../fonts/YandexSansDisplay-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YandexSansText;
+  font-display: swap;
+  src: url("../fonts/YandexSansText-Regular.woff2") format("woff2"), url("../fonts/YandexSansText-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YandexSansDisplay;
+  font-display: swap;
+  src: url("../fonts/YandexSansDisplay-Bold.woff2") format("woff2"), url("../fonts/YandexSansDisplay-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: YandexSansText;
+  font-display: swap;
+  src: url("../fonts/YandexSansText-Regular.woff2") format("woff2"), url("../fonts/YandexSansText-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Inter;
+  font-display: swap;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .container {
   width: 100%;
   margin-right: auto;
@@ -6,13 +134,228 @@
   padding-left: 15px;
 }
 
+.header {
+  padding: 31px 0;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.header .logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #1F1F1F;
+}
+
+.forms {
+  padding-top: 47px;
+  padding-bottom: 75px;
+}
+
+.forms__title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #1F1F1F;
+  margin-bottom: 21px;
+}
+
+.forms__desc {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  color: #1F1F1F;
+  margin-bottom: 11px;
+}
+
+.forms__input {
+  width: 100%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  color: #1F1F1F;
+  height: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 10px;
+  background: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  border-radius: 3px;
+}
+
+.forms__content {
+  margin-bottom: 21px;
+  max-width: 758px;
+  width: 100%;
+}
+
+.forms__content.mb {
+  margin-bottom: 34px;
+}
+
+.forms__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-column-gap: 24px;
+     -moz-column-gap: 24px;
+          column-gap: 24px;
+}
+
+.forms__items.mb {
+  margin-bottom: 38px;
+}
+
+.forms__item {
+  width: 100%;
+}
+
+.forms__item.w60 {
+  min-width: 498px;
+  width: 498px;
+}
+
+.forms__txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #1F1F1F;
+  margin-bottom: 21px;
+}
+
+.forms__subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #1F1F1F;
+  margin-bottom: 10px;
+}
+
+.forms__radios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 21px;
+  -webkit-column-gap: 60px;
+     -moz-column-gap: 60px;
+          column-gap: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forms__row-p {
+  margin-top: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #1F1F1F;
+}
+
+.forms__radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.forms__radio label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #898989;
+}
+
+.forms input[type=radio] {
+  background: #FFFFFF;
+  border: 1px solid #B8B8B8;
+  border-radius: 41px;
+  cursor: pointer;
+  display: inline-block;
+  height: 14px;
+  position: relative;
+  width: 14px;
+  -webkit-appearance: none;
+}
+
+.forms input[type=radio]:after {
+  background-color: #444;
+  border-radius: 25px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.4), 0 1px 1px rgba(255, 255, 255, 0.8);
+          box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.4), 0 1px 1px rgba(255, 255, 255, 0.8);
+  content: "";
+  height: 8px;
+  left: 50%;
+  position: relative;
+  top: 50%;
+  width: 8px;
+  display: none;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.forms input[type=radio]:checked:after {
+  display: block;
+  background: #1F1F1F;
+  border-radius: 41px;
+}
+
+.forms input[type=radio]:checked ~ label {
+  color: #1F1F1F;
+}
+
+.forms__btn {
+  background: #277AED;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 11px;
+     -moz-column-gap: 11px;
+          column-gap: 11px;
+  width: 196px;
+  height: 34px;
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+  -webkit-transition: 300ms ease;
+  -o-transition: 300ms ease;
+  transition: 300ms ease;
+}
+
+.forms__btn:hover {
+  background: #3a86ef;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
-  font-family: sans-serif;
+  font-family: HelveticaNeueCyr;
 }
 
 *:focus,
@@ -46,6 +389,10 @@ button {
   background: none;
   border: none;
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (min-width: 576px) {

@@ -4,21 +4,208 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220131151727">
+    <link rel="stylesheet" href="css/style.min.css?_v=20221019174802">
     <title>Document</title>
   </head>
   <body> 
     <div class="wrapper"> 
-            <header class="header"> 
-              <p>header</p>
+            <header class="header">
+              <nav class="header__nav container"> <a class="logo" href="index.html">Все эксперты</a></nav>
             </header>
-            <main class="main"> 
-              <p>main </p>
-            </main>
-            <footer class="footer">  
-              <p>footer</p>
-            </footer>
+      <div class="main"> 
+                <div class="forms"> 
+                  <form class="forms__body container" action="#">
+                    <div class="forms__content"> 
+                      <h2 class="forms__title">Форма собственности</h2>
+                      <p class="forms__desc">Полное наименование организации</p>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__txt">Данные об организации</h2>
+                      <div class="forms__items"> 
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">ИНН</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">КПП</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">ОГРН</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__subtitle">Полное наименование организации</h2>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__subtitle">Сокращенное наименование организации</h2>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__subtitle">Адрес юридический</h2>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__subtitle">Адрес фактический</h2>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__subtitle">Должность руководителя</h2>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__subtitle">ФИО руководителя</h2>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__subtitle">Информация о документе, на основании которого действует руководитель</h2>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <div class="forms__items mb"> 
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Телефон</p>
+                          <input class="forms__input" required type="text">
+                          <p class="forms__row-p">Система налогообложения</p>
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">E-mail</p>
+                          <input class="forms__input" required type="mail">
+                          <div class="forms__radios"> 
+                            <div class="forms__radio">
+                              <input required type="radio" name="radio" id="radio1" checked>
+                              <label for="radio1">УСН</label>
+                            </div>
+                            <div class="forms__radio">
+                              <input required type="radio" name="radio" id="radio2">
+                              <label for="radio2">ИП</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Адрес сайта</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__txt">Реквизиты расчетного счёта</h2>
+                      <div class="forms__items"> 
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">БИК банка</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">ИНН банка</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">К/счёт</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="forms__content mb"> 
+                      <h2 class="forms__subtitle">№ Р/С</h2>
+                      <input class="forms__input" required type="text">
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__txt">Лицо, уполномоченное подписывать заключения</h2>
+                      <div class="forms__radios"> 
+                        <div class="forms__radio">
+                          <input required type="radio" name="radio1" id="radio3" checked>
+                          <label for="radio3">Руководитель</label>
+                        </div>
+                        <div class="forms__radio">
+                          <input required type="radio" name="radio1" id="radio4">
+                          <label for="radio4">Другие</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="forms__content"> 
+                      <div class="forms__items"> 
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Фамилия</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Имя</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Отчество</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="forms__content"> 
+                      <div class="forms__items"> 
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Должность</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item w60"> 
+                          <p class="forms__subtitle">Действует на основании</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__txt">Данные для входа</h2>
+                      <div class="forms__items"> 
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Логин</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Пароль</p>
+                          <input class="forms__input" required type="password">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Повторите пароль</p>
+                          <input class="forms__input" required type="password">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="forms__content"> 
+                      <h2 class="forms__txt">Контакты для восстановления</h2>
+                      <div class="forms__items"> 
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">E-mail</p>
+                          <input class="forms__input" required type="mail">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Телефон</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                        <div class="forms__item"> 
+                          <p class="forms__subtitle">Telegram</p>
+                          <input class="forms__input" required type="text">
+                        </div>
+                      </div>
+                    </div>
+                    <button class="forms__btn" type="submit">
+                      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2105_270)">
+<path d="M0.0600812 5.13346L3.88672 8.96118L5.31703 7.53127L1.49039 3.70355L0.0600812 5.13346Z" fill="white"/>
+<path d="M4.66793 8.17033L10.0781 2.76013L8.55256 1.23456L3.14236 6.64476L4.66793 8.17033Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2105_270">
+<rect width="10" height="10" fill="white"/>
+</clipPath>
+</defs>
+</svg>Зарегистрироваться    
+                    </button>
+                  </form>
+                </div>
+      </div>
+            <footer class="footer"></footer>
     </div>
-    <script src="js/app.min.js?_v=20220131151727"> </script>
+    <script src="js/app.min.js?_v=20221019174802"> </script>
   </body>
 </html>

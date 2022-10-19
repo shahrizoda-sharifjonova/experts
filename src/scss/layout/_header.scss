@@ -1,1 +1,10 @@
-// Шапка
+.header{
+    padding: 31px 0;
+    border-bottom: 1px solid #E5E5E5;
+    .logo{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #1F1F1F;
+    }
+}

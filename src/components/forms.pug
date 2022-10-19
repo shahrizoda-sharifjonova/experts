@@ -1,0 +1,140 @@
+mixin forms()
+    .forms 
+        form(action="#").forms__body.container
+            .forms__content 
+                h2.forms__title Форма собственности
+                p.forms__desc Полное наименование организации
+                input( required type="text").forms__input
+            .forms__content 
+                h2.forms__txt Данные об организации
+                .forms__items 
+                    .forms__item 
+                        p.forms__subtitle ИНН
+                        input( required type="text").forms__input
+                    .forms__item 
+                        p.forms__subtitle КПП
+                        input( required type="text").forms__input
+                    .forms__item 
+                        p.forms__subtitle ОГРН
+                        input( required type="text").forms__input
+            .forms__content 
+                h2.forms__subtitle Полное наименование организации
+                input( required type="text").forms__input
+            .forms__content 
+                h2.forms__subtitle Сокращенное наименование организации
+                input( required type="text").forms__input
+            .forms__content 
+                h2.forms__subtitle Адрес юридический
+                input( required type="text").forms__input
+            .forms__content 
+                h2.forms__subtitle Адрес фактический
+                input( required type="text").forms__input
+            .forms__content 
+                h2.forms__subtitle Должность руководителя
+                input( required type="text").forms__input
+            .forms__content 
+                h2.forms__subtitle ФИО руководителя
+                input( required type="text").forms__input
+            .forms__content 
+                h2.forms__subtitle Информация о документе, на основании которого действует руководитель
+                input( required type="text").forms__input
+            .forms__content 
+                .forms__items.mb 
+                    .forms__item 
+                        p.forms__subtitle Телефон
+                        input( required type="text").forms__input
+                        p.forms__row-p Система налогообложения
+                    .forms__item 
+                        p.forms__subtitle E-mail
+                        input( required type="mail").forms__input
+                        .forms__radios 
+                            .forms__radio
+                                input( required type="radio" name="radio" id="radio1" checked)
+                                label(for="radio1") УСН
+                            .forms__radio
+                                input( required type="radio" name="radio" id="radio2")
+                                label(for="radio2") ИП
+                    .forms__item 
+                        p.forms__subtitle Адрес сайта
+                        input( required type="text").forms__input
+            .forms__content 
+                h2.forms__txt Реквизиты расчетного счёта
+                .forms__items 
+                    .forms__item 
+                        p.forms__subtitle БИК банка
+                        input( required type="text").forms__input
+                    .forms__item 
+                        p.forms__subtitle ИНН банка
+                        input( required type="text").forms__input
+                    .forms__item 
+                        p.forms__subtitle К/счёт
+                        input( required type="text").forms__input
+            .forms__content.mb 
+                h2.forms__subtitle № Р/С
+                input( required type="text").forms__input
+            .forms__content 
+                h2.forms__txt Лицо, уполномоченное подписывать заключения
+                .forms__radios 
+                    .forms__radio
+                        input( required type="radio" name="radio1" id="radio3" checked)
+                        label(for="radio3") Руководитель
+                    .forms__radio
+                        input( required type="radio" name="radio1" id="radio4")
+                        label(for="radio4") Другие
+            .forms__content 
+                .forms__items 
+                    .forms__item 
+                        p.forms__subtitle Фамилия
+                        input( required type="text").forms__input
+                    .forms__item 
+                        p.forms__subtitle Имя
+                        input( required type="text").forms__input
+                    .forms__item 
+                        p.forms__subtitle Отчество
+                        input( required type="text").forms__input
+            .forms__content 
+                .forms__items 
+                    .forms__item 
+                        p.forms__subtitle Должность
+                        input( required type="text").forms__input
+                    .forms__item.w60 
+                        p.forms__subtitle Действует на основании
+                        input( required type="text").forms__input
+            .forms__content 
+                h2.forms__txt Данные для входа
+                .forms__items 
+                    .forms__item 
+                        p.forms__subtitle Логин
+                        input( required type="text").forms__input
+                    .forms__item 
+                        p.forms__subtitle Пароль
+                        input( required type="password").forms__input
+                    .forms__item 
+                        p.forms__subtitle Повторите пароль
+                        input( required type="password").forms__input
+            .forms__content 
+                h2.forms__txt Контакты для восстановления
+                .forms__items 
+                    .forms__item 
+                        p.forms__subtitle E-mail
+                        input( required type="mail").forms__input
+                    .forms__item 
+                        p.forms__subtitle Телефон
+                        input( required type="text").forms__input
+                    .forms__item 
+                        p.forms__subtitle Telegram
+                        input( required type="text").forms__input
+            button(type="submit").forms__btn
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_2105_270)">
+                    <path d="M0.0600812 5.13346L3.88672 8.96118L5.31703 7.53127L1.49039 3.70355L0.0600812 5.13346Z" fill="white"/>
+                    <path d="M4.66793 8.17033L10.0781 2.76013L8.55256 1.23456L3.14236 6.64476L4.66793 8.17033Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_2105_270">
+                    <rect width="10" height="10" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+                | Зарегистрироваться    
+
